@@ -11,6 +11,7 @@ public class C03_RakamlarToplami {
         Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen 4 basamakli pozitif bir tamsayi giriniz");
         int girilenSayi= scan.nextInt(); // ornegin 1469 olsun
+        int orjinalSayi=girilenSayi;
 
 
         /*
@@ -54,6 +55,6 @@ public class C03_RakamlarToplami {
 
 
 
-        System.out.println("Girilen sayinin rakamlar toplami : " + rakamlarToplami);
+        System.out.println("Girdiginiz sayi : " + orjinalSayi + " sayinin rakamlar toplami : " + rakamlarToplami);
     }
 }
