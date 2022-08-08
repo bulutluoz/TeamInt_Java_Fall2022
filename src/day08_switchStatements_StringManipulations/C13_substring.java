@@ -13,7 +13,9 @@ public class C13_substring {
 
         // son 3 karakter haric tum metni yazdiralim
 
-        System.out.println(str.substring(0, str.length()-3));
+        System.out.println(str.substring(0, str.length()-3)); // Java Guzeld
+
+
 
 
     }

@@ -22,6 +22,7 @@ public class C06_toLowerCase_toUpperCase {
 
         // eger buyuk kucuk harf cevirirken, bir dile gore yapmak isterseniz
 
+        str="JAVA CANDIR";
         System.out.println(str.toLowerCase(Locale.GERMAN)); // java candir
         System.out.println(str.toLowerCase(Locale.forLanguageTag("Tr"))); // java candır
 

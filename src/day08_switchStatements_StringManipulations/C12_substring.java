@@ -10,12 +10,9 @@ public class C12_substring {
 
         System.out.println(str.substring(2)); // va Guzeldir
 
-        // son 3 karakteri yazdirin
-
         System.out.println(str.substring(10)); // dir
 
-        System.out.println(str.substring(str.length()-3));
-        // dinamik oldugu icin bu sekilde yazilmasi daha iyidir
+        System.out.println(str.substring(str.length()-3)); // dir
 
         System.out.println(str.substring(str.length()-1)); // r
 

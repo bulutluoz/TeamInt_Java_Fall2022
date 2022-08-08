@@ -13,6 +13,9 @@ public class C10_charAt {
         System.out.println(str.charAt(3)); // a
         System.out.println(str.charAt(10)); // r
 
+
+
+
         // System.out.println(str.charAt(20)); // StringIndexOutOfBoundsException
         // eger var olmayan bir index'deki karakteri istersek
         // java hata verir, index sinirlarin disinda der

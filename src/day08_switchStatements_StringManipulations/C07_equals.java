@@ -28,6 +28,8 @@ public class C07_equals {
 
         System.out.println(str1==str2); // false
         System.out.println(str1==str3); // false
+
+
         System.out.println(str1.equals(str3)); // true
         System.out.println(str1.equals(str2)); // false
 
