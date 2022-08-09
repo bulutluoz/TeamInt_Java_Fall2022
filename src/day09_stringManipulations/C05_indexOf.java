@@ -5,9 +5,6 @@ public class C05_indexOf {
 
         String str="Java cok guzel,cok.";
 
-        System.out.println(str.indexOf("Soner")); // -1
-        System.out.println(str.indexOf('t')); // -1
-
         System.out.println(str.indexOf('a'));
         // buldugu ilk a'nin index'ini verir : 1
 
@@ -40,6 +37,7 @@ public class C05_indexOf {
         } else{
             System.out.println("cumle f iceriyor");
         }
+
 
     }
 }

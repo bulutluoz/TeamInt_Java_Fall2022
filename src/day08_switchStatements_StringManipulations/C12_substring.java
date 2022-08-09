@@ -22,6 +22,7 @@ public class C12_substring {
 
         System.out.println(str.substring(0)); // Java Guzeldir
 
+        System.out.println(str.substring(3)); // a Guzeldir
 
     }
 }

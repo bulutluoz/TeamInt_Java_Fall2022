@@ -24,6 +24,7 @@ public class C07_equals {
         String str2= "fatih";
         String str3= new String("Fatih"); // Fatih
 
+
         System.out.println("str3 : " + str3);
 
         System.out.println(str1==str2); // false

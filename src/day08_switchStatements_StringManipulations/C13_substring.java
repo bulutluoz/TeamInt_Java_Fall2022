@@ -15,7 +15,12 @@ public class C13_substring {
 
         System.out.println(str.substring(0, str.length()-3)); // Java Guzeld
 
+        System.out.println(str.substring(3,3)); // hiclik yazdirir
 
+        System.out.println(str.substring(5,6));// sadece 5.index'deki harfi yazdiralim
+        System.out.println(str.substring(2,3)); // sadece 2.indexteki harfi yazdiralim
+
+        //System.out.println(str.substring(5,2)); // RTE 5.index'den sonra 2.index'i bulamaz
 
 
     }
