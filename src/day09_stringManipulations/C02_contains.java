@@ -11,8 +11,14 @@ public class C02_contains {
 
         System.out.println(str.contains("cok")); // true
 
+        System.out.println(str.contains("a")); // true
+
+        System.out.println(str.contains(" ")); // true
+
+        System.out.println(str.contains(""));  // true
+
         /*
-        contains() bir String'in istedigimiz bir char veya String'i icerip icermedigini kontrol eder
+        contains() bir String'in istedigimiz bir String'i icerip icermedigini kontrol eder
         contains() aranan String'in kac tane olduguna bakmaz, sadece icerip icermedigini kontrol eder
 
         CharSequence ==> CharZinciri diye dusunebiliriz ve String diyebiliriz

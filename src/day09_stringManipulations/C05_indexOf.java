@@ -5,9 +5,14 @@ public class C05_indexOf {
 
         String str="Java cok guzel,cok.";
 
-        System.out.println(str.indexOf('a')); // 1 ? - 3 ? buldugu ilk a'nin index'ini verir : 1
+        System.out.println(str.indexOf("Soner")); // -1
+        System.out.println(str.indexOf('t')); // -1
 
-        System.out.println(str.indexOf('a',1)); // 1.index ve sonrasinda a arar : 1
+        System.out.println(str.indexOf('a'));
+        // buldugu ilk a'nin index'ini verir : 1
+
+        System.out.println(str.indexOf('a',1));
+        // 1.index ve sonrasinda a arar : 1
 
         System.out.println(str.indexOf('a', 2)); // 3
 

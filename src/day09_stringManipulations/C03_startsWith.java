@@ -12,6 +12,9 @@ public class C03_startsWith {
         System.out.println(str.startsWith("")); // true
 
         System.out.println(str.startsWith("cok")); // false
+
+
+
         System.out.println(str.startsWith("cok",5)); // true
         System.out.println(str.startsWith("guzel",10)); // false
 
