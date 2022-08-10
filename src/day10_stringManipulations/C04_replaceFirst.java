@@ -6,10 +6,10 @@ public class C04_replaceFirst {
 
         String str = "Herkesin github'i olmali";
 
-        System.out.println(str.replaceFirst("e", "a")); // Harkesin github'i olmali
+        System.out.println(str.replaceFirst("e", "a"));
+        // Harkesin github'i olmali
 
-        System.out.println(str.replace("e","a")); // Harkasin github'i olmali
-
-
+        System.out.println(str.replaceFirst("\\w","1"));
+        // 1erkesin github'i olmali
     }
 }

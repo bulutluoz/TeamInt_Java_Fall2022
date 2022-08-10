@@ -29,5 +29,7 @@ public class C06_replaceAllSoru {
         String yeniKkNo= kkNo.substring(0,4)+ " **** **** ****";
 
         System.out.println(yeniIsim +"\n"+yeniKkNo);
+
+
     }
 }

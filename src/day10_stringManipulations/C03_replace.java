@@ -5,7 +5,8 @@ public class C03_replace {
 
         String str= "Java ogren, isi kap";
 
-        System.out.println(str.replace('J', 'j'));  // java ogren, isi kap
+        System.out.println(str.replace('J', 'j'));
+        // java ogren, isi kap
 
         System.out.println(str); // Java ogren, isi kap
 
@@ -26,7 +27,6 @@ public class C03_replace {
 
         // olmayan bir metni deggistirmek istersek
         System.out.println(str.replace("Kemal","Ali")); // Java ogren, offer'i kap
-
 
 
     }

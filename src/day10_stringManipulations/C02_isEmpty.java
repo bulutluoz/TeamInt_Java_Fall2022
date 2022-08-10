@@ -4,7 +4,8 @@ public class C02_isEmpty {
 
     public static void main(String[] args) {
 
-        String str= "Java ogren, 70000 euro'yu kap";
+
+        String str= "Java ogren, 70000 euro offer al";
 
         System.out.println(str.isEmpty()); // false
 
@@ -43,8 +44,19 @@ public class C02_isEmpty {
                             // sadece isim1 null olarak isaretlenmistir.
         String isim2;
 
+        String isim3="";
+
+        System.out.println(isim3);
+        //hiclik yazdirir, konsolda birsey gorunmez
+
+        System.out.println(isim3.length()); // 0
+
+        //System.out.println( isim2 ); // CTE
+        //System.out.println( isim2.length()); // CTE
+
         System.out.println(isim1); // null
         System.out.println(isim1.length()); // NullPointerException
+
         // sen isim1'e deger atamadin, sadece onu bos olarak isaretledin
         // deger atamadigin bir ismi herhangi bir method'la kullanamazsin
 
