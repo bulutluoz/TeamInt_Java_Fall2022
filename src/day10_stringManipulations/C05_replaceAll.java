@@ -34,6 +34,8 @@ public class C05_replaceAll {
 
         System.out.println(str); // Java Guzel bir programlama dili
 
+        str.replaceAll("Java","k");
+        // replaceAll'da regex yerine String de yazilabilir.
 
     }
 }

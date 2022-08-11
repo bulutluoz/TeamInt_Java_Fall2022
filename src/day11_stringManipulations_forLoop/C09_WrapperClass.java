@@ -33,6 +33,5 @@ public class C09_WrapperClass {
         System.out.println(Character.isAlphabetic('a')); //true
 
 
-
     }
 }
