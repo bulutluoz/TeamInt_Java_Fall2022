@@ -26,8 +26,13 @@ public class C09_WrapperClass {
 
         char chr='*';
         Character ch='p';
-        System.out.println(Character.MAX_VALUE); // ￿
-        System.out.println(Character.getType('a')); //2
-        System.out.println(Character.isAlphabetic('9'));
+        char chr2=101;
+        System.out.println(Character.valueOf(chr2)); // e
+        System.out.println(Character.isDigit('5')); // true
+        System.out.println(Character.isAlphabetic('9')); // false
+        System.out.println(Character.isAlphabetic('a')); //true
+
+
+
     }
 }

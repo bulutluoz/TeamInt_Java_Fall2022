@@ -7,7 +7,6 @@ public class C02_lastIndexOf {
         String str= "Java cok guzel, cok";
 
         System.out.println(str.indexOf("cok")); // 5
-
         System.out.println(str.lastIndexOf("cok")); // 16
 
         System.out.println(str.indexOf('o')); // 6
@@ -18,6 +17,9 @@ public class C02_lastIndexOf {
         // 10.index ve sonrasinda arama yapar
 
         System.out.println(str.lastIndexOf("cok" , 10)); // 5
+        // 10.index ve oncesinde arama yapar
+        System.out.println(str.lastIndexOf('x')); // -1
+        System.out.println(str.lastIndexOf("x",10)); // -1
 
         /*
           Kullanicidan bir cumle ve bir kelime isteyin
