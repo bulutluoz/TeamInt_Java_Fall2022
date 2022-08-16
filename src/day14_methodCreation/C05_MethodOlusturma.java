@@ -48,7 +48,7 @@ public class C05_MethodOlusturma {
 
         System.out.println(carpim(2,3)); // int int 6
         System.out.println(carpim(2,3.4)); // double double 6.8
-
+        System.out.println(carpim(3,4,5)); // double double double 60.0
     }
 
     public static double carpim(double sayi1, double sayi2){

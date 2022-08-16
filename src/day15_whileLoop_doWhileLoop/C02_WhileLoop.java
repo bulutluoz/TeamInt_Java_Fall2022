@@ -25,5 +25,7 @@ public class C02_WhileLoop {
           ornegin:
            artim miktari yazilmasi unutulursa sonsuz loop olusur
          */
+
+
     }
 }

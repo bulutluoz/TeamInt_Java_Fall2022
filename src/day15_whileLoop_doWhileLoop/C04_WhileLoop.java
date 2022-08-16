@@ -41,7 +41,6 @@ public class C04_WhileLoop {
                 System.out.println("Sifre basari ile kaydedildi");
                 sifreDogrumu=true;
             }
-
         }
 
     }
