@@ -12,6 +12,7 @@ public class C02_ElementleriArtirma {
         int[] arr={2,4,6,8};
         int artisMiktari= 3;
 
+
         /*
         int[] yeniArray= elementleriArtir(arr,artisMiktari);
 
