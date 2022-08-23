@@ -16,6 +16,8 @@ public class C08_MDASoru {
         // output [10, 3, 12, 10, 9]
 
 
+
+
         // once tek katli yeni array'i olusturalim
 
         int[] yeniArr = new int[arr.length];
