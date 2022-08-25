@@ -18,9 +18,11 @@ public class C05_ArrayListSort {
         liste.add("Esra");
         liste.add("Seher");
 
+        System.out.println(liste); // [Eyup, Yahya, Esra, Seher]
+
         Collections.sort(liste);
 
-        System.out.println(liste);
+        System.out.println(liste); // [Esra, Eyup, Seher, Yahya]
 
 
     }

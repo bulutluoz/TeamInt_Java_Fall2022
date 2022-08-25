@@ -15,18 +15,8 @@ public class C09_IntegerRemove {
 
         System.out.println(sayilar); // [10, 15, 20, 2]
 
-        // eger listemiz integer ise java remive method'unda
-        // obje ve index secme karisabilir
-        // java sayi yazdigimizda direk index olarak kabul eder
-
         sayilar.remove(2);
         System.out.println(sayilar);// [10, 15, 2]
-
-        // eger silmek icin 10 yazarsak exception olusur
-        // sayilar.remove(10);
-
-        // illa da objeyi vererek remove yapmak istersek
-        // once br variable olusturup o degeri atamali sonra variable ile remove kullanmaliyiz
 
         Integer silinecek=10;
         sayilar.remove(silinecek);

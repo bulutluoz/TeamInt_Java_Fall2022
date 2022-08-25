@@ -12,10 +12,10 @@ public class C08_remove {
         liste.add("Esra");
         liste.add("Seher");
 
-
         System.out.println(liste); // [Fatih, Levent, Esra, Seher]
 
-        // remove 1- silme islemi icin obje yazilirsa, objeyi siler ve bize boolean sonuc doner
+        // remove 1- silme islemi icin obje yazilirsa,
+        // objeyi siler ve bize boolean sonuc doner
         System.out.println(liste.remove("Fatih")); // true
         System.out.println(liste); // [Levent, Esra, Seher]
 

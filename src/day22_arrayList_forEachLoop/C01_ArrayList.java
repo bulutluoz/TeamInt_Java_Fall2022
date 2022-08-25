@@ -8,7 +8,7 @@ public class C01_ArrayList {
     public static void main(String[] args) {
 
         /*
-          Kullanicidan istedigi kadarb String alarak bir liste olusturup
+          Kullanicidan istedigi kadar String alarak bir liste olusturup
           bu listeyi bize donduren bir method olusturun
           Kullanicinin bitirmesi icin Q harfine bastirin
          */

@@ -13,6 +13,6 @@ public class C06_sublist {
         liste.add("Esra");
         liste.add("Seher");
 
-        System.out.println(liste.subList(1, 3));
+        System.out.println(liste.subList(1, 3)); // [Yahya, Esra]
     }
 }

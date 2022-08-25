@@ -10,7 +10,6 @@ public class C04_ArraydenListYapmak {
 
         List<Integer> list= Arrays.asList(arr);
 
-
         System.out.println(list); // [2, 3, 4, 5, 6]
     /*
     Arrays.asList() bir array'i list'e cevirir
@@ -29,6 +28,9 @@ public class C04_ArraydenListYapmak {
 
         list.set(1,20);
         System.out.println("list'i update ettikten sonra list : " + list);
+        //[2, 20, 4, 5, 6]
+
         System.out.println("list'i update ettikten sonra array : " + Arrays.toString(arr));
+        //[2, 20, 4, 5, 6]
     }
 }
