@@ -8,16 +8,6 @@ public class Car {
     int yil;
     int fiyat;
 
-    @Override
-    public String toString() {
-        return
-                "ilanNo : " + ilanNo +
-                ", marka : " + marka  +
-                ", model : " + model  +
-                ", yil : " + yil +
-                ", fiyat : " + fiyat ;
-    }
-
     public void maxHiz(String yakit){
 
         if (yakit.equalsIgnoreCase("benzin")){
@@ -54,5 +44,14 @@ public class Car {
         }else{
             System.out.println("Girilen yakit turu gecerli degil");
         }
+    }
+    @Override
+    public String toString() {
+        return
+                "ilanNo : " + ilanNo +
+                        ", marka : " + marka  +
+                        ", model : " + model  +
+                        ", yil : " + yil +
+                        ", fiyat : " + fiyat ;
     }
 }
