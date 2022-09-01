@@ -19,6 +19,7 @@ public class C02_Immutable {
 
 
         String str="";
+
         for (int i = 1; i <=100 ; i++) {
             str+=i;
         }

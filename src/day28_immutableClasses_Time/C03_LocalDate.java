@@ -24,7 +24,8 @@ public class C03_LocalDate {
                                 .plusMonths(2)
                                 .plusDays(10)); // 2025-11-10
 
-        System.out.println(trh.minusWeeks(3).minusDays(3));// 2022-08-07
+        System.out.println(trh.minusWeeks(3)
+                              .minusDays(3));// 2022-08-07
 
         LocalDate dogTar1=LocalDate.of(2011,10,12);
         LocalDate dogTar2=LocalDate.of(2011,10,14);
