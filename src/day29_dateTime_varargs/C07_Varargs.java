@@ -22,7 +22,6 @@ public class C07_Varargs {
              ) {
             toplam+=each;
         }
-
         System.out.println("istenen islemin sonucu : " + a*toplam);
     }
 }

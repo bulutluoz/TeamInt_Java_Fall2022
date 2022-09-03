@@ -13,13 +13,16 @@ public class C11_SB_capacity_length {
         System.out.println(sb1.capacity()); // 7
         System.out.println(sb1.length()); // 7
 
-
         sb1.append("Bilmeyen var mi ? ");
         System.out.println(sb1.capacity()); // 25
         System.out.println(sb1.length()); // 25
 
         sb1.append("Inanmayan beri gelsin.");
         System.out.println(sb1.capacity()); // 52
+        System.out.println(sb1.length()); // 47
+
+        sb1.trimToSize();
+        System.out.println(sb1.capacity()); // 47
         System.out.println(sb1.length()); // 47
     }
 }

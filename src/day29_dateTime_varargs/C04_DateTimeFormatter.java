@@ -13,7 +13,6 @@ public class C04_DateTimeFormatter {
 
         System.out.println(dtf.format(ldt)); // 20220901
 
-
         DateTimeFormatter dtf2=DateTimeFormatter.ISO_WEEK_DATE;
         System.out.println(dtf2.format(ldt)); // 2022-W35-4
 
@@ -49,7 +48,6 @@ public class C04_DateTimeFormatter {
 
 		 YY : yilin son iki rakamini
 		 YYYY : Yilin tamamini
-
 
 		 Saat : (24 saat uzerinden istiyorsak H, 12 saat duzeninde istiyorsak h)
 

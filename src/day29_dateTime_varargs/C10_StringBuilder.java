@@ -17,12 +17,15 @@ public class C10_StringBuilder {
         System.out.println(sb1.capacity()); // 16
 
         StringBuilder sb2= new StringBuilder("Ali Can");
-        // kapasitesi 7 olan bir SB olusturur ve icine Ali Can yazar
+        // yazilan String'e uygun kapasitede SB olusturur
+        // ve icine Ali Can yazar
         System.out.println(sb2.capacity()); // 23
 
         StringBuilder sb3= new StringBuilder(7);
         // kapasitesi 7 olan bir SB olusturur
         System.out.println(sb3.capacity()); // 7
+
+
         sb3.append("Ali Can");
         System.out.println(sb3.capacity()); // 7
 

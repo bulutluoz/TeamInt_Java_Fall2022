@@ -17,9 +17,12 @@ public class C13_equals {
         System.out.println(sb1.equals(sb1)); // true
 
 
-        // System.out.println(sb1==str); farkli data turleri oldugu icin Java CTE verir
+        // System.out.println(sb1==str); farkli data turleri
+        // oldugu icin Java CTE verir
 
         System.out.println(sb1.equals(str));  // false
+
+        System.out.println(sb1.compareTo(sb2)); // 0
 
 
 

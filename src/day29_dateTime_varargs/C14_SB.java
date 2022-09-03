@@ -6,7 +6,8 @@ public class C14_SB {
 
         StringBuilder sb1= new StringBuilder("Java Guzeldir");
 
-        sb1.substring(5); // String class'indan calisir dolayisiyla immutable olur
+        sb1.substring(5);
+        // String class'indan calisir dolayisiyla immutable olur
 
         System.out.println(sb1.substring(5)); // Guzeldir
 

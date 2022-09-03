@@ -9,20 +9,16 @@ public class C02_LocalDateTime {
 
         System.out.println(ldt); // 2022-09-01T19:11:45.014862
 
-
         /*
-        Date ve time'i DateTimeFormatter ile istedigimiz gibi manipule edebiliriz
-
+        Date ve time'i DateTimeFormatter ile
+        istedigimiz gibi manipule edebiliriz
         veya bugune kadarki bilgilerimizle bu isi cozmek istersek
-
-
          */
 
         String tarihVeSaat=ldt.toString();
 
         // bu tarih 2022'e mi ait ?
         System.out.println(tarihVeSaat.startsWith("2022")); // true
-
 
     }
 }
