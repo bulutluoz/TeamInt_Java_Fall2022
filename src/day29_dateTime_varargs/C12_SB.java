@@ -25,5 +25,14 @@ public class C12_SB {
         sb1.reverse();
 
         System.out.println(sb1); //  naT ileV
+
+        StringBuilder sb3= new StringBuilder("12Java45");
+        String isim = "Mesut";
+
+        sb3.append(isim,2,4);
+
+        System.out.println(sb3);
+
+
     }
 }
