@@ -36,6 +36,11 @@ public class C extends A{
         System.out.println(objA.pblc); //10
 
 
+        C objC=new C();
+        objC.prtctd="A class'indaki protected variable'a ObjeC ile eristik ";
+        System.out.println(objC.prtctd);
+
+
 
         B objB= new B();
         objB.dfltB="Java";
