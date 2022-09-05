@@ -25,4 +25,5 @@ public class A {
     public void setPrvt2(String prvt2) {
         this.prvt2 = prvt2;
     }
+
 }

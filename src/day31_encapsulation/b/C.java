@@ -37,8 +37,6 @@ public class C extends A{
 
 
 
-
-
         B objB= new B();
         objB.dfltB="Java";
         System.out.println(objB.dfltB); // Java
