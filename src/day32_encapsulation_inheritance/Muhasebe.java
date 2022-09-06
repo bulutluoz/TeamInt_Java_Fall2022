@@ -22,8 +22,7 @@ public class Muhasebe extends IK{
     }
 
     protected int standartMaas(){
-
-        return 30*8*minSaatUcreti;
+        return 30*8*minSaatUcreti*2;
     }
 
 }

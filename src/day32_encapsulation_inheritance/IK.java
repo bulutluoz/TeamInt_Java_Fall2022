@@ -7,8 +7,6 @@ public class IK {
      variable ve method'lar bu class'da tutulur
      boylece alt class'larin her birinde
      bu kadar variable'i yeniden yeniden olustrmak zorunda kalmayiz
-
-
      */
     protected String isim ="Deger Atanmamis";
     protected String soyisim="Deger Atanmamis";
