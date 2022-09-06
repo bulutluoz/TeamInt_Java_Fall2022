@@ -6,6 +6,7 @@ public class DVolvo {
     }
 
     DVolvo(String abs){
+
         System.out.println("Volvo parametreli cons");
     }
     String marka="volvo";
