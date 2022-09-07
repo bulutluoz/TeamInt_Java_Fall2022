@@ -5,14 +5,11 @@ public class EXC90 extends DVolvo{
     String model="xc90";
 
     EXC90(String renk){
-
         System.out.println(renk + " bir XC90");
     }
 
     public static void main(String[] args) {
-
         EXC90 arb1=new EXC90("Kirmizi");
-
     }
 }
 

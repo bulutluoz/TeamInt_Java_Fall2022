@@ -3,9 +3,10 @@ package day33_inheritance;
 public class CDizelCorolla extends BCorolla{
 
     CDizelCorolla(){
-
+        super();
         System.out.println("dizel corolla cons");
     }
+
     public static void main(String[] args) {
 
         CDizelCorolla arb1=new CDizelCorolla();
@@ -13,9 +14,7 @@ public class CDizelCorolla extends BCorolla{
         System.out.println(arb1.marka); // Toyota
         System.out.println(arb1.uretimYeri); // Turkiye
         System.out.println(arb1.model); // Corolla
-
     }
-
 }
 /*
  Bir child class'da bir obje olusturdugumuzda
