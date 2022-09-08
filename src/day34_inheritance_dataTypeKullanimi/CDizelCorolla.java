@@ -4,13 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CDizelCorolla extends BCorolla{
-
     String yakit="Dizel";
     String motor="1.4 dizel motor";
     String renk="Tanimlanmadi";
 
     public static void main(String[] args) {
-
 
         CDizelCorolla arb1=new CDizelCorolla();
         System.out.println(arb1.motor);  // C 1.4 dizel motor
@@ -27,7 +25,6 @@ public class CDizelCorolla extends BCorolla{
         // BCorolla class'inda motor variable'i olmadigindan CTE verir
         System.out.println(arb2.uretimYeri); // B Turkiye
         System.out.println(arb2.marka); // A Toyota
-
 
         AToyota arb3= new CDizelCorolla();
         // arb3.motor  A'da motor yok

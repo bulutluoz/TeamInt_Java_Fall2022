@@ -2,6 +2,7 @@ package day34_inheritance_dataTypeKullanimi;
 
 public class DVolvo {
 
+
     void yakit(){
 
         System.out.println("Volvo farkli yakitlar kullanir");
