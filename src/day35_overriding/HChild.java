@@ -2,6 +2,21 @@ package day35_overriding;
 
 public class HChild extends GParent{
 
+    void method1() {
+        System.out.println("child method1");
+    }
+    void method2() {
+        System.out.println("child method2");
+    }
+
+
+    public static void main(String[] args) {
+
+        GParent obj = new HChild();
+        obj.method2();
+        //obj.method1();
+    }
+
     /*
     Kural 1 : private, static ve final method'lar override edilemez
     Child class'da, parent'da static veya final olarak
@@ -19,24 +34,4 @@ public class HChild extends GParent{
     // parent'daki private method'u override edemez
     // bagimsiz bir method olur
     // @Override notasyonu kullanmak istersek CTE verir
-    void method1() {
-        System.out.println("child method1");
-    }
-
-
-    void method2() {
-        System.out.println("child method2");
-    }
-
-    public static void main(String[] args) {
-
-        GParent obj = new HChild();
-        obj.method2(); //
-
-
-
-
-
-    }
-
 }

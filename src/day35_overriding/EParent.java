@@ -9,6 +9,5 @@ public class EParent {
     void method2(){
         System.out.println("parent method2");
     }
-
-
 }
+

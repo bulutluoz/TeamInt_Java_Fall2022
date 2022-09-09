@@ -2,13 +2,12 @@ package day35_overriding;
 
 public class FChild extends EParent{
 
-
     @Override
     void method1() {
         System.out.println("child method1");
     }
 
-    @Override
+
     void method2() {
         System.out.println("child method1");
     }

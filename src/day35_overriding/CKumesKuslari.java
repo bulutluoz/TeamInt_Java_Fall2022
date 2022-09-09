@@ -1,7 +1,6 @@
 package day35_overriding;
 
 public class CKumesKuslari extends BKuslar{
-
     String tur="Kumes Kusu";
     String isim="Kumes kusu Isim belirtilmedi";
     String yasamYeri="Kumes kuslari kumeste yasar";
@@ -9,13 +8,10 @@ public class CKumesKuslari extends BKuslar{
     void hareket(){
         System.out.println("Kumes hayvanlari yurur");
     }
-
     void beslenme(){
         System.out.println("Kumes hayvanlari et veya ot yerler");
     }
-
     public static void main(String[] args) {
-
         CKumesKuslari kk1= new CKumesKuslari();
         System.out.println(kk1.tur); // C Kumes Kusu
         System.out.println(kk1.isim); // C Kumes kusu Isim belirtilmedi
@@ -28,6 +24,7 @@ public class CKumesKuslari extends BKuslar{
         kk1.gaga(); // B Kuslarin gagalari vardir
         kk1.cogalma(); // B Kuslar yumurtayla cogalir
         kk1.omur(); // A Hayvanlar yasar ve olur
+
 
         BKuslar kk2= new CKumesKuslari();
         System.out.println(kk2.tur); // B Kus

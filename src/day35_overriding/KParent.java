@@ -8,5 +8,5 @@ public class KParent {
     protected void method2(){
         System.out.println("parent method2");
     }
-
 }
+
