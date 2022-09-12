@@ -17,8 +17,6 @@ public class C01_Exceptions {
         }else{
             System.out.println("Bolme isleminin sonucu : "+  a/b);
         }
-
-
         System.out.println("Iyi gunler");
 
         /*
@@ -31,3 +29,17 @@ public class C01_Exceptions {
          */
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

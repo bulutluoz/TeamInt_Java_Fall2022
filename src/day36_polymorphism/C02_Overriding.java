@@ -29,10 +29,8 @@ public class C02_Overriding extends C01_Overloading{
     }
 
     public void islem(double a, double b){
-
         System.out.println(a * b);
     }
-
     public void islem(String c, int d){
         System.out.println(c);
     }
