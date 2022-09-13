@@ -21,3 +21,4 @@ public class C05_Exceptions {
         System.out.println(arr[8]); // ArrayIndexOutOfBoundsException
     }
 }
+

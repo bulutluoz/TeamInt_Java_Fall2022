@@ -18,9 +18,12 @@ public class C06_Exceptions {
 
         Object b = a; // Object class'i String'in parent class'i oldugundan kabul eder
 
-        Integer c= (Integer)b; // object class'i Integer'in da parent'i oldugundan casting ile kabul etti
+        Integer c= (Integer)b;
+        // object class'i Integer'in da parent'i oldugundan casting ile kabul etti
 
         System.out.println(c);
-
     }
 }
+
+
+

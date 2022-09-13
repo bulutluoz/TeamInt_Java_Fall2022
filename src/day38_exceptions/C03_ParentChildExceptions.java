@@ -6,16 +6,7 @@ import java.io.IOException;
 
 public class C03_ParentChildExceptions {
 
-    public static void main(String[] args) throws IOException, FileNotFoundException {
-
-        /*
-           Eger olusabilecek exception'lar arasinda parent child iliskisi varsa
-           daha kapsamli olan varken, child exception'in yazilmasina gerek olmaz
-
-           illa iklisini de yazmak isterseniz once child exception'i yazmalisiniz
-           yoksa ikinci exception'in calisma ihtimali olmaz
-
-         */
+    public static void main(String[] args) throws FileNotFoundException, IOException {
 
         String path= "src/day37_exceptions/TextFile";
 
@@ -24,7 +15,7 @@ public class C03_ParentChildExceptions {
         int k=0;
 
         while ((k= fis.read()) != -1){
-            System.out.println((char)k);
+            System.out.print((char)k);
         }
     }
 }
