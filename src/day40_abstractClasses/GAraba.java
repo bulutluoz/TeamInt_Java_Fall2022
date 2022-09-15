@@ -6,4 +6,8 @@ public abstract class GAraba {
     public abstract String marka();
 
     public abstract void yakit();
+
+
 }
+
+

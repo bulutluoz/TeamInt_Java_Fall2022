@@ -43,8 +43,12 @@ public abstract class CAbstractEkmek {
     public abstract void maya( );
 
     public void tuz( ){
+
         System.out.println("Ekmekte tuz kullanilabilir");
     }
     public abstract void bicim( );
     public abstract void gramaj( );
 }
+
+
+

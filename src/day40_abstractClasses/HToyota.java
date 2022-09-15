@@ -11,3 +11,4 @@ public abstract class HToyota extends GAraba{
     public abstract void uretimYeri();
 
 }
+

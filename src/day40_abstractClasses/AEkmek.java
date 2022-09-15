@@ -16,6 +16,6 @@ public class AEkmek {
     public void gramaj( ){
         System.out.println("Ekmeklerin turune gore gramaj degisir");
     }
-
-
 }
+
+
