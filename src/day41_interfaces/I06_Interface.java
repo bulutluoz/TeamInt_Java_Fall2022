@@ -36,7 +36,4 @@ public interface I06_Interface {
     public static void method3(){
         System.out.println("interface static method");
     }
-
-
-
 }

@@ -14,12 +14,9 @@ public class C02_ListIterator {
         sayilar.add(40);
 
         // Tum elementleri Iterator ile 5 artiralim
-
         ListIterator lit = sayilar.listIterator();
 
-
         while (lit.hasNext()){
-
             lit.set((Integer)lit.next()+5);
         }
 

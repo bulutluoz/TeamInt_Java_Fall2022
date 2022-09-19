@@ -65,7 +65,5 @@ public class C04_LinkedList {
 
 
 
-
-
     }
 }

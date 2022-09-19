@@ -8,6 +8,6 @@ public interface I04_Parent1 {
     void method1();
 
     int method2();
-
-
 }
+
+

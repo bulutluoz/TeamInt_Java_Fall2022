@@ -37,7 +37,8 @@ public class C05_Queue {
         System.out.println(yemekSirasi); // [ayse, kemal, Fatma]
 
         System.out.println(queDeneme.poll()); // null
-        // System.out.println(queDeneme.remove()); // exception
+        //System.out.println(queDeneme.remove());// exception
+
 
 
 

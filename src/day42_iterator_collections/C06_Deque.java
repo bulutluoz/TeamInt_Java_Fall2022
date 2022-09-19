@@ -8,19 +8,15 @@ public class C06_Deque {
 
         Deque<String> stokList= new LinkedList<>();
 
-        // Deque : cift tarafli queue demektir
-        // yani iki taraftan da eklenebilir ve silinebilir
-
         stokList.addLast("Malz1");
         stokList.addFirst("Malz2");
-        System.out.println(stokList);
+        System.out.println(stokList); // [Malz2, Malz1]
 
         System.out.println(stokList.pop()); // Malz2
         System.out.println(stokList); // [Malz1]
 
         stokList.push("Malz3");
         System.out.println(stokList); // [Malz3, Malz1]
-
 
     }
 }
