@@ -11,20 +11,9 @@ public class C04_Maps {
 
         Map<Integer,String > ogrenciMap= ReusableMethods.ogrenciMapOlustur();
 
-        Collection<String> ogrenciValueColl= ogrenciMap.values();
-        List<String> bSubesindekiler= new ArrayList<>();
-        String[] valueArr;
+        List<String> subedekiOgrencilerList = ReusableMethods.istenenSubedekiOgrencilerListesiOlustur(ogrenciMap,"H");
 
-        for (String each: ogrenciValueColl
-             ) {
-
-            valueArr=each.split("-");
-            if (valueArr[3].equalsIgnoreCase("B")){
-                bSubesindekiler.add(valueArr[0]);
-            }
-
-        }
-
-        System.out.println(bSubesindekiler);
+        System.out.println(ogrenciMap);
+        System.out.println(subedekiOgrencilerList);
     }
 }

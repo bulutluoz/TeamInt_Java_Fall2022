@@ -1,8 +1,6 @@
 package day44_maps;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class ReusableMethods {
 
@@ -48,5 +46,61 @@ public class ReusableMethods {
         ogrenciMap.put(keyOgr,valueOgr);
 
         return ogrenciMap;
+    }
+
+    public static List<String> istenenSubedekiOgrencilerListesiOlustur(Map<Integer, String> ogrenciMap, String sube) {
+
+        Collection<String> ogrenciValueColl= ogrenciMap.values();
+        List<String> istenenSubedekiler= new ArrayList<>();
+        String[] valueArr;
+
+        for (String each: ogrenciValueColl
+        ) {
+
+            valueArr=each.split("-");
+            if (valueArr[3].equalsIgnoreCase(sube)){
+                istenenSubedekiler.add(valueArr[0]);
+            }
+
+        }
+        return istenenSubedekiler;
+    }
+
+    public static List<String> bransdakiOgrencilerListesiOlustur(Map<Integer, String> ogrenciMap, String brans) {
+
+        List<String> bransdakiOgrenciList=new ArrayList<>();
+
+        Collection<String> bransOgrenciValueColl = ogrenciMap.values();
+        String[] tempArr;
+
+        for (String each: bransOgrenciValueColl
+             ) {
+
+            tempArr=each.split("-"); // [Ali, Can, 10, H, MF]
+
+            if (tempArr[4].equalsIgnoreCase(brans)){
+                bransdakiOgrenciList.add(tempArr[0]+" "+tempArr[1]);
+            }
+        }
+        return bransdakiOgrenciList;
+    }
+
+    public static List<String> siniftakiOgrenciListesiOlustur(Map<Integer, String> ogrenciMap, int sinif) {
+
+        List<String> siniftakiOgrenciListesi=new ArrayList<>();
+
+        Collection<String> ogrenciValueColl= ogrenciMap.values();
+        String[] tempArr;
+
+        for (String each: ogrenciValueColl
+             ) {
+
+            tempArr=each.split("-"); // [Ali, Can, 10, H, MF]
+
+            if (tempArr[2].equals(sinif+"")){
+                siniftakiOgrenciListesi.add(tempArr[0]+" "+tempArr[1]);
+            }
+        }
+        return siniftakiOgrenciListesi;
     }
 }
