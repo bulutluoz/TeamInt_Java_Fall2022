@@ -14,5 +14,6 @@ public class C06_Maps {
                 ReusableMethods.siniftakiOgrenciListesiOlustur(ogrenciMap,11);
 
         System.out.println(sinifOgrenciListesi);
+
     }
 }

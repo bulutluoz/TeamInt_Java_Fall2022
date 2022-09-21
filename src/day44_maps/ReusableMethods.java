@@ -63,6 +63,8 @@ public class ReusableMethods {
             }
 
         }
+
+
         return istenenSubedekiler;
     }
 
@@ -101,6 +103,7 @@ public class ReusableMethods {
                 siniftakiOgrenciListesi.add(tempArr[0]+" "+tempArr[1]);
             }
         }
+
         return siniftakiOgrenciListesi;
     }
 }

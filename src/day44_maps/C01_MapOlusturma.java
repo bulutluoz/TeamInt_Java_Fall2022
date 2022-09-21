@@ -18,17 +18,19 @@ public class C01_MapOlusturma {
            1 - buradaki bilgilerin sirasi
            2 - bilgiler arasinda kullanilacak ayirac standart olmalidir
 
-
          */
         Map<Integer,String> ogrenciMap = new HashMap<>();
         ogrenciMap.put(101,"Ali-Can-10-H-MF");
         ogrenciMap.put(102,"Veli-Cem-11-M-Soz");
+        ogrenciMap.put(103,"Ali-Cem-11-H-TM");
+
 
         System.out.println(ogrenciMap);
 
 
         // {101=Ali-Can-10-H-MF, 102=Veli-Cem-11-M-Soz}
         // standart giris acisindan map'de herseyi method ile yapmakta fayda vardir
+
 
     }
 }
