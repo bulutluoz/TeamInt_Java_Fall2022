@@ -22,9 +22,16 @@ public class C02_EntrySet {
          */
 
         Map<Integer,String> ogrencimap= ReusableMethods.ogrenciMapOlustur();
-        System.out.println("No isim  Soyisim Sinif Sube Bolum");
-        // Map'deki tum entry'leri bir set'e store ettik
+
         Set<Map.Entry<Integer,String>> ogrenciEntrySeti=ogrencimap.entrySet();
+
+        for (Map.Entry<Integer,String> each: ogrenciEntrySeti
+             ) {
+            System.out.println(each
+            );
+        }
+
+
 
         for (Map.Entry<Integer,String> each: ogrenciEntrySeti
              ) {

@@ -8,8 +8,9 @@ import java.util.Set;
 public class C04_EntrySet {
     public static void main(String[] args) {
 
-        // 10. siniftaki ogrencilerin no, isim, soyisim, bolumlerini bir liste olarak kullaniciya yazdirin
-        //  No  Isim  Soyisim  Bolum
+        // 10. siniftaki ogrencilerin no, isim, soyisim, bolumlerini
+        // bir liste olarak kullaniciya yazdirin
+        // Baslik satiri : No  Isim  Soyisim  Bolum
 
         Map<Integer,String> ogrenciMap= ReusableMethods.ogrenciMapOlustur();
 
@@ -31,8 +32,9 @@ public class C04_EntrySet {
                                     tempValueArr[1]+" "+
                                     tempValueArr[4]);
             }
-
         }
+
+
 
     }
 }
