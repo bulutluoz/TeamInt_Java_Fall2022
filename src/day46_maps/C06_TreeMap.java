@@ -8,7 +8,6 @@ public class C06_TreeMap {
     public static void main(String[] args) {
 
         TreeMap<String,Integer> ornekMap=new TreeMap<>();
-
         ornekMap.put("a",3);
         ornekMap.put("r",1);
         ornekMap.put("k",2);
@@ -24,6 +23,7 @@ public class C06_TreeMap {
         System.out.println(ornekMap.ceilingKey("b")); // b
         System.out.println(ornekMap.ceilingKey("c")); // k
 
+        System.out.println(ornekMap); // {a=3, b=5, k=2, r=1}
         System.out.println(ornekMap.firstKey());// a
         System.out.println(ornekMap.firstEntry()); // a=3
 

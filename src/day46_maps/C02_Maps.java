@@ -12,7 +12,8 @@ public class C02_Maps {
 
         Map<Integer,String> ogrenciMap= ReusableMethods.ogrenciMapOlustur();
         System.out.println(ogrenciMap);
-        // {101=Ali-Can-10-H-MF, 102=Veli-Cem-11-M-Soz, 103=Ali-Cem-11-B-TM, 104=Ayca-Can-11-B-MF, 105=Ayse-Cem-10-M-Soz}
+        // {101=Ali-Can-10-H-MF, 102=Veli-Cem-11-M-Soz, 103=Ali-Cem-11-B-TM,
+        // 104=Ayca-Can-11-B-MF, 105=Ayse-Cem-10-M-Soz}
         // beklenen sonuc {10=2, 11=3}
 
         Map<String,Integer> sinifSayilariMap= new HashMap<>();

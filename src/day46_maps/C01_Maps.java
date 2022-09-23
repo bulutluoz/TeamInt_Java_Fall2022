@@ -33,7 +33,6 @@ public class C01_Maps {
 
                 kullanimSayilariMap.put(each,1);
             }
-
         }
         System.out.println(kullanimSayilariMap); // {1=6, 2=3, 3=3, 4=3, 5=2}
 
@@ -41,10 +40,7 @@ public class C01_Maps {
 
         for (Map.Entry<Integer,Integer> each: kullanimsayilariEntrySet
              ) {
-
-            // 1 kullanimi : 3 adet
             System.out.println(each.getKey()+ " kullanimi : " + each.getValue()+" adet" );
         }
-
     }
 }
